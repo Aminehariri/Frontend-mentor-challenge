@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/brands.min.css" integrity="sha512-G/T7HQJXSeNV7mKMXeJKlYNJ0jrs8RsWzYG7rVACye+qrcUhEAYKYzaa+VFy6eFzM2+/JT1Q+eqBbZFSHmJQew==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -10,38 +12,39 @@
   <title>Document</title>
 </head>
 <body>  
-  <nav class="navbar navbar-expand-lg ">
-    <a class="navbar-brand" href="#">Navbar</a>
+  
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-brand text-white" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fa-solid fa-bars text-white"></i>
     </button>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link p-lg-3 text-center text-white active" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link p-lg-3 text-center text-white" href="#">Services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link p-lg-3 text-center text-white" href="#">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link p-lg-3 text-center text-white" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link p-lg-3 text-center text-white" href="#">Contact</a>
         </li>
       </ul>
+      <div class="search ps-3 pe-3 d-none d-lg-block">
+        <i class="fa-sharp pr-4 pl-1 fa-solid fa-magnifying-glass text-white "></i>
+      </div>
+      <a href="" class="btn btn-primary main-btn">Login</a>
     </div>
   </nav>
   <div class="container">
     
-    <h1 class="text-primary">hello world</h1>
   </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
