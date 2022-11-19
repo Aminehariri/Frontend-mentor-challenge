@@ -24,6 +24,7 @@
 }
 .navbar .navbar-toggle:focus{
   box-shadow: none;
+  outline: none;
 }
 
 .landing{
@@ -34,4 +35,14 @@
 .main-btn{
   color: var(--yellow-color) !important;
   background-color: var(--red-color) !important;
+}
+
+.main-title::after{
+  position: absolute;
+  content: '';
+  height: 5px;
+  background-color: var(--red-color);
+  width: 120px;
+  left: 50%;
+  transform: translateX(-50%);
 }
