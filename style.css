@@ -1,0 +1,9 @@
+:root{
+  --dark-color:#19283f;
+}
+
+/* aaa */
+
+.navbar{
+  background-color: var(--dark-color);
+}
