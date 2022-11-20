@@ -36,6 +36,7 @@
 .main-btn{
   color: var(--yellow-color) !important;
   background-color: var(--red-color) !important;
+  border: none !important;
 }
 
 .main-title::after{
@@ -127,4 +128,10 @@
 }
 .team .box h4{
   background-color: var(--green-color);
+}
+
+
+
+.project{
+  background-color: var(--dark-color);
 }
