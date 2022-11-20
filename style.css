@@ -6,8 +6,7 @@
   --section-color:#eff7fa;
 }
 
-/* aaa */
-
+/* navbar  */
 .navbar{
   background-color: var(--dark-color);
 }
@@ -18,21 +17,22 @@
 }
 .search i{
   border-left: 1px solid #33d1cc;
-
 }
 .navbar .navbar-toggle{
   font-size: 25px;
 }
 .navbar .navbar-toggle:focus{
-  box-shadow: none;
-  outline: none;
+  box-shadow: none !important;
+  outline: none !important;
+  border: none !important;
 }
 
+
+/* landing */
 .landing{
   background-color: var(--dark-color);
-  min-height: calc(100vh - 72px);
+  min-height: calc(100vh - 60px);
 }
-
 .main-btn{
   color: var(--yellow-color) !important;
   background-color: var(--red-color) !important;
@@ -45,7 +45,6 @@
   box-shadow: none !important;
   border: none !important;
 }
-
 .main-title::after{
   position: absolute;
   content: '';
@@ -56,7 +55,7 @@
   transform: translateX(-50%);
 }
 
-
+/* Features  */
 .features .icon-holder{
   height: 200px;
 }
@@ -77,7 +76,7 @@
 }
 
 
-
+/* Work  */
 .our-work{
   background-color: var(--section-color);
 }
@@ -120,11 +119,14 @@
 }
 
 
+
+/* About  */
 .about .description{
   max-width: 500px;
 }
 
 
+/* Team  */
 .team{
   background-color: var(--section-color);
 }
@@ -136,11 +138,12 @@
 }
 
 
-
+/* Projects  */
 .project{
   background-color: var(--dark-color);
 }
 
+/* NewsLetters  */
 .subscribe{
   background-color: var(--yellow-color);
 }
@@ -156,6 +159,8 @@
   background-color: var(--dark-color);
   color: var(--yellow-color);
 }
+
+
 
 /* footer  */
 footer{
