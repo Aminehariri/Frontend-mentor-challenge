@@ -112,3 +112,13 @@
 .our-work .box:hover::before{
   transform:translateX(0);
 }
+
+
+.about .description{
+  max-width: 500px;
+}
+
+
+.team{
+  background-color: var(--section-color);
+}
