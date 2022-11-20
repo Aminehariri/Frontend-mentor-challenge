@@ -1,8 +1,9 @@
 :root{
   --dark-color:#19283f;
-  --second-color:#33d1cc;
+  --green-color:#33d1cc;
   --red-color:#ff3150;
   --yellow-color:#ffc400;
+  --section-color:#eff7fa;
 }
 
 /* aaa */
@@ -41,8 +42,28 @@
   position: absolute;
   content: '';
   height: 5px;
-  background-color: var(--red-color);
+  background-color: var(--green-color);
   width: 120px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+
+.features .icon-holder{
+  height: 200px;
+}
+.features .icon-holder svg{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.features .icon-holder .number{
+  font-size: 12rem;
+  color: var(--section-color);
+}
+.features .icon-holder .icon{
+  color: var(--green-color);
+  bottom: 0;
+}
+.features h4{
+  color: var(--yellow-color);
 }
