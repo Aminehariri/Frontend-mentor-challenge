@@ -38,6 +38,13 @@
   background-color: var(--red-color) !important;
   border: none !important;
 }
+.main-btn:hover{
+  color: white !important;
+}
+.main-btn:focus{
+  box-shadow: none !important;
+  border: none !important;
+}
 
 .main-title::after{
   position: absolute;
@@ -95,9 +102,7 @@
 .our-work .box::before{
   content: attr(data-work);
   position: absolute;
-  background-color: rgb(51 209 204 / 50%);;
-  /* width: calc(100vw - 10px);
-  height: calc(100vh - 10px); */
+  background-color: rgb(51 209 204 / 50%);
   height: 100%;
   width: 100%;
   display: flex;
@@ -142,8 +147,6 @@
 .subscribe input[type='text']{
   border: none;
   border-bottom: 1px solid white;
-}
-.subscribe input[type='text']:focus{
   outline: none;
 }
 .subscribe ::placeholder{
